@@ -1,0 +1,114 @@
+.portfolio {
+    margin-top: 100px;
+    width: 100%;
+    background: #23282d;
+
+    .portfolio-margin {
+        width: 900px;
+        overflow: hidden;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 56px;
+            color: white;
+            padding-top: 50px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.2;
+
+        }
+
+        hr {
+            display: block;
+            color: #eee;
+            margin: 30px auto;
+            background-color: #eee;
+            height: 1px;
+            width: 340px;
+            border: 0;
+            opacity: 1;
+        }
+
+        .grid {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 100px 0;
+            max-width: 100%;
+            padding: 0;
+
+            li {
+                width: 300px;
+
+                a {
+                    position: relative;
+                    text-decoration: none;
+                    transition: all 0.2s ease-in;
+
+                    img {
+                        width: 300px;
+                        height: 230px;
+                    }
+
+                    .text {
+                        display: none;
+                        position: absolute;
+                        top: 0;
+                        left: 10px;
+                        color: #eee;
+                        transition: all 0.2s ease-in;
+
+                        &:hover {
+                            background-color: #2fa68e;
+                        }
+
+                        .proyect {
+                            font-size: 29px;
+                            text-align: center;
+                            margin-top: 80px;
+                            font-weight: bold;
+                            color: #FFF;
+                        }
+
+                        .description {
+                            font-size: 15px;
+                            width: 300px;
+                            margin-top: 20px;
+                            text-align: center;
+                            font-weight: 400;
+                            color: #FFF;
+                        }
+                    }
+
+                    &:hover {
+
+                        .text {
+                            display: block;
+                            width: 300px;
+                            height: 230px;
+                            top: -105px;
+                            left: 0;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        @include breakpoint(medium) {
+            width: 600px;
+        }
+
+        @include breakpoint(small) {
+            width: 350px;
+            .grid {
+                width: 350px;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
+}

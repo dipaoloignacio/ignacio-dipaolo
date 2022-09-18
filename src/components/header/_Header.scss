@@ -1,0 +1,91 @@
+.container-header {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background: url('../../images/img.jpg');
+    background-position: center;
+    background-size: cover;
+
+    @include breakpoint(small){
+        background-position: -250px;
+    }
+    .bg-opaco {
+        position: absolute;
+        width: 100%;
+        height: 580px;
+        background: rgba(0, 0, 0, 0.4)
+    }
+
+    .container-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        bottom: 50px;
+        margin-top: -100px;
+        margin-left: -250px;
+        width: 500px;
+        height: 320px;
+
+        .title-Header {
+            font-size: 56px;
+            color: #eee;
+            font-weight: bold;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-transform: uppercase;
+            margin: auto;
+            text-align: center;
+            width: 500px;
+            height: 200px;
+
+            span {
+                color: #2fa68e;
+                text-shadow: 0 1px black;
+            }
+        }
+
+
+        .btn-read-more {
+            width: 200px;
+            height: 50px;
+            display: block;
+            margin: auto;
+            background: transparent;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-decoration: none;
+            border: solid 1px white;
+            font-size: 18px;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px 15px;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #eee;
+                cursor: pointer;
+                color: #222;
+            }
+        }
+
+        .icon-down {
+            margin: 15px auto;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        @include breakpoint(small) {
+            width: 350px;
+            top: 50%;
+            left: 50%;
+            bottom: 50px;
+            margin-top: -180px;
+            margin-left: -180px;
+
+            .title-Header {
+                width: 350px !important;
+            }
+        }
+    }
+
+}

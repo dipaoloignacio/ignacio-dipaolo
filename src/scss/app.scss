@@ -1,0 +1,21 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    color: black;
+    font-weight: 400;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+@import '../scss/utilyties/mixins.scss';
+
+@import '../components/header/Header';
+@import '../components/navbar/Navbar';
+@import '../components/about/About';
+@import '../components/portfolio/Portfolio';
+@import '../components/socials/Socials';
+@import '../components/contact/Contact';

@@ -1,0 +1,124 @@
+.about {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    h1 {
+        font-size: 56px;
+        color: black;
+        text-align: center;
+        margin-top: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 29px;
+        color: black;
+        line-height: 1.2;
+        width: 100%;
+        position: relative;
+        font-weight: bold;
+    }
+
+    hr {
+        display: block;
+        color: black;
+        margin: 30px auto;
+        background-color: black;
+        height: 1px;
+        width: 340px;
+        border: 0;
+        opacity: 1;
+
+    }
+
+    .title {
+        color: #919191;
+        margin-top: 40px;
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px;
+        width: 100%;
+        color: #919191;
+        line-height: 1.4;
+        position: relative;
+        font-weight: 400;
+    }
+
+    .container-p-skills {
+        display: flex;
+        flex-wrap: wrap;
+
+        .column-one {
+            display: block;
+            margin-top: 40px;
+            width: 300px;
+            float: left;
+            height: 350px;
+            margin: 20px auto;
+
+            .circle-one {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 174px;
+                position: relative;
+                margin: 0 auto;
+                border: 8px solid #ebebeb;
+                border-radius: 174px;
+                width: 174px;
+                transition: 0.5s;
+
+                svg {
+                    font-size: 50px;
+                }
+
+                &:hover {
+                    background-color: #2fa68e;
+
+                    svg {
+                        color: #eee;
+                    }
+                }
+            }
+
+            @include breakpoint(medium) {}
+        }
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .skill {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+
+            svg {
+                font-size: 30px;
+                align-self: center;
+            }
+
+            p {
+                margin: 5px;
+            }
+        }
+    }
+}
