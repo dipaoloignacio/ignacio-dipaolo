@@ -1,20 +1,20 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faDatabase, faLanguage } from '@fortawesome/free-solid-svg-icons'
-import { faReact, faSquareJs, faCss3, faSass, faJava, faGithub, } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faSquareJs, faCss3, faSass, faJava, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 let habilidadesPrincipales = [
     {
         id: 1,
         icon: faReact,
-        skill: 'React developer',
-        description: '6 meses +'
+        skill: 'React',
+        description: '1 año +'
     },
     {
         id: 2,
         icon: faSquareJs,
-        skill: 'JavaScript developer',
-        description: '6 meses +'
+        skill: 'JavaScript | TypeScript',
+        description: '1 año +'
     },
     {
         id: 3,
@@ -24,24 +24,25 @@ let habilidadesPrincipales = [
     },
 
 ]
+
 let habilidadesGenerales = [
     {
         id: 4,
         icon: faSass,
         skill: 'SASS',
-        description: '6 meses +'
+        description: '1 año +'
     },
     {
         id: 5,
         icon: faJava,
         skill: 'JAVA',
-        description: '1 años +'
+        description: '2 años +'
     },
     {
         id: 5,
         icon: faCode,
         skill: 'SpringBoot',
-        description: '1 mes +'
+        description: '6 mes +'
     },
     {
         id: 6,
@@ -53,13 +54,13 @@ let habilidadesGenerales = [
         id: 7,
         icon: faDatabase,
         skill: 'MYSQL',
-        description: '1 años +'
+        description: '2 años +'
     },
     {
         id: 8,
         icon: faDatabase,
         skill: 'MongoDB | FireBase',
-        description: '2 meses +'
+        description: '6 meses +'
     },
     {
         id: 9,
@@ -67,6 +68,7 @@ let habilidadesGenerales = [
         skill: 'English A2 certificado',
     },
 ]
+
 function About() {
     return (
         <div>
@@ -74,9 +76,8 @@ function About() {
 
                 <h1>SOBRE MI</h1>
 
-                <p className="title">Hola, Soy Ignacio Di Paolo Web Developer. Me desarrollaba en el ambito de la actividad fisica y montaña, hasta alrededor del 2020 que descubri y me interesé en este mundo de la programacion y el desarrollo web, donde se construyen proyectos y todos los dias se aprenden cosas nuevas.
-                    Tengo facilidad para trabajar y encajar en grupos de trabajo , soy constante y sobre todo me gusta lo que hago.</p>
-
+                <p className="title">Hola, Soy Ignacio Di Paolo Web Developer. Me formaba en el ambito de la actividad física y montaña, hasta alrededor del 2020 que descubri y me interesé en este mundo de la programacion y el desarrollo web, donde se construyen proyectos y todos los dias se aprenden cosas nuevas.
+                    Tengo facilidad para trabajar e integrarme en grupos de trabajo , soy constante y sobre todo me gusta lo que hago.</p>
                 <br />
                 <h2>PRINCIPALES HABILIDADES</h2>
                 <div className='container-p-skills'>

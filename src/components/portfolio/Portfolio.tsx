@@ -12,7 +12,7 @@ let portfolioList = [
     },
     {
         id: 2,
-        link: 'https://fundacionlilianabodoc.org.ar/',
+        link: 'https://liliana-bodoc-ahar7dmy4-nachobeatbox.vercel.app/#/',
         img: foto2,
         title: 'WEBSITE',
         description: 'WebSite creado con React, SASS, Framer-Motion, Formik, Boostrap'
