@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mypage/static/css/main.dd03b907.css",
-    "main.js": "/mypage/static/js/main.8f055252.js",
-    "static/media/img.jpg": "/mypage/static/media/img.f18c3d1ed3fcfa842595.jpg",
-    "static/media/bg-socials.jpg": "/mypage/static/media/bg-socials.fff9bae27c5f38fe4b7f.jpg",
-    "static/media/portfolio2.jpg": "/mypage/static/media/portfolio2.0707cabef4757b11dcb9.jpg",
-    "static/media/portfolio3.jpg": "/mypage/static/media/portfolio3.0d4fefb1853309a45806.jpg",
-    "static/media/portfolio1.jpg": "/mypage/static/media/portfolio1.f31aa02a031deed4743d.jpg",
-    "index.html": "/mypage/index.html",
-    "main.dd03b907.css.map": "/mypage/static/css/main.dd03b907.css.map",
-    "main.8f055252.js.map": "/mypage/static/js/main.8f055252.js.map"
+    "main.css": "/ignacio-dipaolo/static/css/main.e4283eb1.css",
+    "main.js": "/ignacio-dipaolo/static/js/main.976a629f.js",
+    "static/media/img.jpg": "/ignacio-dipaolo/static/media/img.f18c3d1ed3fcfa842595.jpg",
+    "static/media/bg-socials.jpg": "/ignacio-dipaolo/static/media/bg-socials.fff9bae27c5f38fe4b7f.jpg",
+    "static/media/portfolio2.jpg": "/ignacio-dipaolo/static/media/portfolio2.0707cabef4757b11dcb9.jpg",
+    "static/media/portfolio3.jpg": "/ignacio-dipaolo/static/media/portfolio3.0d4fefb1853309a45806.jpg",
+    "static/media/portfolio1.jpg": "/ignacio-dipaolo/static/media/portfolio1.f31aa02a031deed4743d.jpg",
+    "index.html": "/ignacio-dipaolo/index.html",
+    "main.e4283eb1.css.map": "/ignacio-dipaolo/static/css/main.e4283eb1.css.map",
+    "main.976a629f.js.map": "/ignacio-dipaolo/static/js/main.976a629f.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd03b907.css",
-    "static/js/main.8f055252.js"
+    "static/css/main.e4283eb1.css",
+    "static/js/main.976a629f.js"
   ]
 }
