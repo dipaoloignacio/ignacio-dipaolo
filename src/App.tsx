@@ -20,7 +20,6 @@ function App() {
       <div className='clear'></div>
       <Socials />
       <Contact />
-
     </div>
   );
 }

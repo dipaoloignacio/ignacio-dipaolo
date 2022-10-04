@@ -2,7 +2,7 @@
   "name": "my-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nachobeatbox.github.io/mypage",
+  "homepage": "https://dipaoloignacio.github.io/ignacio-dipaolo",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
