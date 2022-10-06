@@ -16,12 +16,11 @@ function Socials() {
                     <div className="logo">
 
                         <a href="#contact"><FontAwesomeIcon icon={faEnvelope} /> </a>
-                        <a href="https://github.com/nachobeatbox" target={'_blank'}><FontAwesomeIcon icon={faGithub} /> </a>
+                        <a href="https://github.com/dipaoloignacio" target={'_blank'}><FontAwesomeIcon icon={faGithub} /> </a>
                         <a href="https://www.instagram.com/nacho_dipaolo/" target={'_blank'}><FontAwesomeIcon icon={faInstagram} /> </a>
                         <a href="https://www.linkedin.com/in/ignacio-di-paolo-9354711b8/" target={'_blank'}><FontAwesomeIcon icon={faLinkedin} /> </a>
 
                     </div>
-
                 </div>
 
             </section>

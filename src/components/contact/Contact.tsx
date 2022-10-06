@@ -53,7 +53,7 @@ function Contact() {
                                 resetForm();
                                 sendEmail();
                                 setFormSend(true);
-                                setTimeout(() => setFormSend(false), 5000);
+                                setTimeout(() => setFormSend(false), 4000);
                             }}
                         >
                             {
@@ -79,7 +79,7 @@ function Contact() {
                                         <div>
                                             <button type="submit" value="Send" className='button'><span>Enviar</span></button>
                                         </div>
-
+                                        {formSend ? <p className='text-center mt-3' style={{ color: 'rgb(102, 238, 113)' }}>Correo enviado con exito</p> : ''}
                                     </Form>
                                 )
                             }

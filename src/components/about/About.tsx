@@ -76,8 +76,9 @@ function About() {
 
                 <h1>SOBRE MI</h1>
 
-                <p className="title">Hola, Soy Ignacio Di Paolo Web Developer. Me formaba en el ambito de la actividad física y montaña, hasta alrededor del 2020 que descubri y me interesé en este mundo de la programacion y el desarrollo web, donde se construyen proyectos y todos los dias se aprenden cosas nuevas.
-                    Tengo facilidad para trabajar e integrarme en grupos de trabajo , soy constante y sobre todo me gusta lo que hago.</p>
+                <p className="title">Hola, Soy Ignacio Di Paolo. Me formaba en el ambito de la actividad física y montaña, hasta alrededor del 2020 que descubrí y me interesé en este mundo de la programacion y el desarrollo web, donde se construyen proyectos y todos los dias se aprenden cosas nuevas. <br />
+                Actualmente me sigo dedicando a la montaña pero busco un cambio laboral y poder empezar en el mundo IT. <br />
+                </p>
                 <br />
                 <h2>PRINCIPALES HABILIDADES</h2>
                 <div className='container-p-skills'>
