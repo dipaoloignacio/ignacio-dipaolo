@@ -1,11 +1,14 @@
-import React from 'react';
-import { useState, useRef } from 'react';
+import React, { useEffect } from 'react';
+import { useState, useRef, useContext } from 'react';
+import { navbarContex } from '../../context/navBarContext';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
     const [formSend, setFormSend] = useState(false);
+    const {setPositions} = useContext(navbarContex);
     const form = useRef<any>();
+    const myRef = useRef<any>();
 
     const sendEmail = () => {
         emailjs.sendForm('nachobeatbox', 'template_ap8quob', form.current, '_96mtxYTIA0BDQxuw')
@@ -15,10 +18,13 @@ function Contact() {
                 console.log(error.text);
             });
     };
-
+    useEffect(() => {
+        setPositions(myRef.current.offsetTop, 'contact');
+    }, [])
+    
     return (
         <div>
-            <section className="contact" id="contact">
+            <section ref={myRef} className="contact" id="contact">
                 <h1>Contacto</h1>
                 <hr />
 

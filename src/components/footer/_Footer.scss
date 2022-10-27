@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        font-size: 30px;
+        padding: 10px 15px;
+        color: #2fa68e;
+
+        &:hover {
+            color: #299781;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}

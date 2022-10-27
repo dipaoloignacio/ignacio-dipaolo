@@ -10,7 +10,12 @@
     }
 
     .navbar-toggler {
-
+        &:active{
+            border: none;
+        }
+        &:focus{
+            border: none;
+        }
         .navbar-toggler-icon {
             color: #eee;
         }
@@ -37,16 +42,18 @@
         padding: 10px;
         flex-grow: 0;
 
-        a {
+        .nav-link {
             color: rgb(188, 188, 188);
-            padding: 10px 15px;
             transition: 0.3s;
             text-align: center;
-
+            border-bottom: solid 1px transparent;
             &:hover {
                 cursor: pointer;
-                color: #eee;
+                color: #fff;
             }
+        }
+        .active{
+            border-bottom: solid 1px white;
         }
     }
 }

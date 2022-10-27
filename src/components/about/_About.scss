@@ -15,6 +15,13 @@
 
     }
 
+    a {
+        display: block;
+        margin: auto;
+        max-width: 100px;
+        text-align: center;
+    }
+
     h2 {
         text-align: center;
         margin-top: 20px;
@@ -95,7 +102,9 @@
                 }
             }
 
-            @include breakpoint(medium) {}
+            @include breakpoint(small) {
+                    height: auto;
+            }
         }
     }
 

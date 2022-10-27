@@ -40,20 +40,29 @@
         display: flex;
         justify-content: center;
 
-        a {
-            width: 70px;
-            border: solid 1px #999;
-            border-radius: 50%;
-            font-size: 40px;
-            text-decoration: none;
-            margin: 10px;
-            transition: 0.5s;
-            svg{
-                text-align: center;
-                color: #eee;
-            }
-            &:hover {
-                background-color: #2fa68e;
+        section {
+            div {
+                .icon-socials {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60px;
+                    height: 60px;
+                    border: solid 1px #999;
+                    border-radius: 50%;
+                    font-size: 40px;
+                    text-decoration: none;
+                    margin: 10px;
+                    transition: 0.5s;
+
+                    svg {
+                        color: #eee;
+                    }
+
+                    &:hover {
+                        background-color: #2fa68e;
+                    }
+                }
             }
         }
 

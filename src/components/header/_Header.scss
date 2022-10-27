@@ -6,9 +6,18 @@
     background-position: center;
     background-size: cover;
 
-    @include breakpoint(small){
+    animation: scale 40s linear infinite;
+
+    @keyframes scale {
+        50% {
+            transform: scale(1.15);
+        }
+    }
+
+    @include breakpoint(small) {
         background-position: -250px;
     }
+
     .bg-opaco {
         position: absolute;
         width: 100%;
@@ -68,6 +77,7 @@
         }
 
         .icon-down {
+            display: block;
             margin: 15px auto;
             color: white;
             text-align: center;
